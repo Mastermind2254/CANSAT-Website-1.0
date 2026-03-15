@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  background: #0a0c0f;
+  color: #e2e8f0;
+  font-family: 'Syne', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #111318; }
+::-webkit-scrollbar-thumb { background: #1e2330; border-radius: 4px; }
+
+.mono { font-family: 'JetBrains Mono', monospace; }
