@@ -14,3 +14,4 @@ services:
   - type: redis
     name: cansat-redis
     plan: free
+    ipAllowList: []
